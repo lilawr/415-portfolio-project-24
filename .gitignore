@@ -1,2 +1,4 @@
-IMP-PCMLAI-M25-final-project-templates/*
+./IMP-PCMLAI-M25-final-project-templates/*
 ./data.csv
+./.idea
+./.ipynb_checkpoints
