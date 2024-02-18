@@ -1,4 +1,5 @@
 ./IMP-PCMLAI-M25-final-project-templates/*
 ./data.csv
+./wine_quality/*
 ./.idea
 ./.ipynb_checkpoints
