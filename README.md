@@ -19,11 +19,13 @@ The raw data was also used (the red wine set) to test the final model. [Original
 
 ## MODEL 
 This task is to classify the wines by quality rating from 1-10 from the given inputs.
-The model selected from the analysis is a RandomForestClassifier from sklearn.ensemble as it performed best against a range of different classifiers as per the shown analysis.
+The model selected from the analysis is a RandomForestClassifier from sklearn.ensemble as it performed best against a range of different classifiers as per the below results:
+
+![Comparing Models](./results-compare.jpg)
 
 ## HYPERPARAMETER OPTIMIZATION
-Hyperparameter optimization was performed using both Bayes and GridSearch. The grid search was also performed on competing models as reference to the original model selection.
-The default hyperparameters used are for the best version of the RandomForestClassifier are: 
+Hyperparameter optimization was performed using both Bayes and GridSearch for both the selected model and the competitors. The grid search was also performed on competing models as reference to the original model selection.
+#### The default hyperparameters used are for the best version of the RandomForestClassifier are: 
 ```
 { 
     'ccp_alpha': 0.0, 
@@ -41,7 +43,7 @@ The default hyperparameters used are for the best version of the RandomForestCla
 }
 ```
 
-The parameters for the 'best' of the tuned models are as below where the only difference seen is the max depth and min samples split:
+The parameters for the 'best' of the tuned model are as below where the only difference seen is the max depth and min samples split:
 ```
 {
     'ccp_alpha': 0.0, 
@@ -58,15 +60,21 @@ The parameters for the 'best' of the tuned models are as below where the only di
     'n_estimators': 100, 
 }
 ```
-## RESULTS
-Performance did not improve overall with hyperparameter tuning in this case but it did appeal to improve in terms of precision across classes i.e 8. 
 
+#### Although the same hierarchy occurred gains were seen in some of the other models: 
+![Models Performance](./tuning-all.jpg)
+
+## RESULTS
+
+Performance did not improve overall with hyperparameter tuning in this case but it did appeal to improve in terms of precision across classes i.e 8.
 #### Plain Model Performance
 ![Plain Model Performance](./plain-stats.jpg)
+
 #### Optimized Model Performance
 ![Plain Model Performance](./best-search-model.jpg)
 
 The model was then tested against the originating red-wine data set with much better results:
+
 !["Model Performance Another Data Set"](./results-original-data.jpg)
 
 Although the testing performance was lower the result on the larger original dataset it was much higher.  
