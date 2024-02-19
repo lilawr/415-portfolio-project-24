@@ -17,7 +17,7 @@ A prebuilt RandomForestClassifier from sklearn.ensemble with parameters tuned by
 
 ## Performance
 
-Comparing the model to other models the basic model choice had the best accuracy
+Comparing the model to other models, the basic model choice had the best accuracy
 
 !["Model Performance Compared"](./images/random-forest-compare.jpg)
 

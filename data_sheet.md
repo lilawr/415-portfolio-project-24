@@ -24,7 +24,7 @@
 - The testing data was transformed into a single row per wine
 - Feature selection was used to select only the more common physicochemical tests
 - The outputs were calculated from the median of three sensory evaluations by blind tasters (rated from 0-10)
-- The original data set differentiates the red and white wines and is also available int he same format to test the models [online](http://www3.dsi.uminho.pt/pcortez/wine/) and could be useful for further analysis
+- The original data set differentiates the red and white wines and is also available in the same format to test the models [online](http://www3.dsi.uminho.pt/pcortez/wine/) and could be useful for further analysis
 
 ## Uses
 
