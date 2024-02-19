@@ -14,14 +14,14 @@ Overall the model performed well on the middle range classes as there were enoug
 
 ## DATA
 The data used is a data set from Kaggle about wine with physicochemical test result data about a certain set of Vinho Verde wines and the quality ratings from drinkers sensory feedback.
-[Link to source](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset?resource=download) created by Paulo Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis in 2009
-The raw data was also used (the red wine set) to test the final model. [Original Data](http://www3.dsi.uminho.pt/pcortez/wine/)
+[Link to source](https./images//www.kaggle.co./images/dataset./images/yasser./images/wine-quality-dataset?resource=download) created by Paulo Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis in 2009
+The raw data was also used (the red wine set) to test the final model. [Original Data](http./images//www3.dsi.uminho.p./images/pcorte./images/win./images/)
 
 ## MODEL 
 This task is to classify the wines by quality rating from 1-10 from the given inputs.
 The model selected from the analysis is a RandomForestClassifier from sklearn.ensemble as it performed best against a range of different classifiers as per the below results:
 
-![Comparing Models](./results-compare.jpg)
+![Comparing Models](./images/results-compare.jpg)
 
 ## HYPERPARAMETER OPTIMIZATION
 Hyperparameter optimization was performed using both Bayes and GridSearch for both the selected model and the competitors. The grid search was also performed on competing models as reference to the original model selection.
@@ -61,20 +61,18 @@ The parameters for the 'best' of the tuned model are as below where the only dif
 }
 ```
 
-#### Although the same hierarchy occurred gains were seen in some of the other models: 
-![Models Performance](./tuning-all.jpg)
+#### Although the same hierarchy occurred gains were seen in some of the other models when parameter tuning was performed on all of them: 
+![Models Performance](./images/tuning-all.jpg)
 
 ## RESULTS
 
-Performance did not improve overall with hyperparameter tuning in this case but it did appeal to improve in terms of precision across classes i.e 8.
+Performance did not improve overall with hyperparameter tuning in this case but it did appear to improve in terms of precision across classes i.e 8.
 #### Plain Model Performance
-![Plain Model Performance](./plain-stats.jpg)
+![Plain Model Performance](./images/plain-stats.jpg)
 
 #### Optimized Model Performance
-![Plain Model Performance](./best-search-model.jpg)
+![Plain Model Performance](./images/best-search-model.jpg)
 
-The model was then tested against the originating red-wine data set with much better results:
+The model was then retested against the originating red-wine data set with much better results:
 
-!["Model Performance Another Data Set"](./results-original-data.jpg)
-
-Although the testing performance was lower the result on the larger original dataset it was much higher.  
+!["Model Performance Another Data Set"](./images/results-original-data.jpg)

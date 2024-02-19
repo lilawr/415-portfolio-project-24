@@ -19,16 +19,16 @@ A prebuilt RandomForestClassifier from sklearn.ensemble with parameters tuned by
 
 Comparing the model to other models the basic model choice had the best accuracy
 
-!["Model Performance Compared"](./random-forest-compare.jpg)
+!["Model Performance Compared"](./images/random-forest-compare.jpg)
 
 Plotting the optimization cycles taken by the BayesSearch 
-!["Model Performance Compared"](./bayes-search-performance.jpg)
+!["Model Performance Compared"](./images/bayes-search-performance.jpg)
 
 Results of the chosen model on the test set:
-!["Model Performance Another Data Set"](./plain-stats.jpg)
+!["Model Performance Another Data Set"](./images/plain-stats.jpg)
 
 Results of the chosen model on the original slightly larger dataset of red-wines:
-!["Model Performance Another Data Set"](./results-original-data.jpg)
+!["Model Performance Another Data Set"](./images/results-original-data.jpg)
 
 ## Limitations
 
