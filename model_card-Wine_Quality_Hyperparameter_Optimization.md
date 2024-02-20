@@ -35,6 +35,7 @@ Results of the chosen model on the original slightly larger dataset of red-wines
 * The data set did not include the full range of values from 0 to 10 (skipping 0-2 and 9 and 10). 
 * The data set did not include a very balanced sample 
 * Bayesian optimization search took a long time to run so I opted for GridSearch for parameter optimization
+* This model was trained on the red-wine data set only and as can be seen performs badly on the white wines.
 
 ## Trade-offs
 
